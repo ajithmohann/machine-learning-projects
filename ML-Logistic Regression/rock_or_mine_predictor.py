@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 # load dataset for pandas frame
-sonar_dataset = pd.read_csv('sonar_data.csv', header=None)
+sonar_dataset = pd.read_csv('../data/sonar_data.csv', header=None)
 
 # --- Inspect dataset ---
 # print(sonar_dataset.shape) # number of rows and columns
@@ -53,7 +53,7 @@ input_data_reshaped = input_data_as_numpy_array.reshape(1, -1)
 # print(input_data_reshaped)
 
 prediction = model.predict(input_data_reshaped)
-print('Prediction:', prediction)
+print('Logistic Regression Prediction:', prediction)
 
 if (prediction[0] == 'R'):
     print('The object is a Rock')
