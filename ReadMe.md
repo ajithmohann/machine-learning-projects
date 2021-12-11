@@ -9,3 +9,4 @@
 #### Support Vector Machine (SVM)
 
 1. **Rock Or Mine Predictor** - uses Support Vector Machine algorithm to predict a given sonar output is a Rock or a Mine
+2. 1. **Diabetes Predictor** - uses Support Vector Machine algorithm to predict a given female person has diabetes or not
